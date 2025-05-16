@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>File Upload App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="file"] {
+      margin: 10px 0;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #0083b0;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #00b4db;
+    }
+  </style>
+</head>
+<body>
+  <form action="upload.php" method="post" enctype="multipart/form-data">
+    <h2>Upload File</h2>
+    <input type="file" name="uploadedFile" required><br>
+    <input type="submit" value="Upload">
+  </form>
+</body>
+</html>

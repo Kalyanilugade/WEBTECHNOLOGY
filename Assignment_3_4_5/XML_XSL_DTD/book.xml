@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees SYSTEM "employee.dtd">
+<library>
+    <book>
+        <id>001</id>
+        <title>Introduction to Database</title>
+        <author>Kalyani</author>
+        <genre>Computer Science</genre>
+        <price>1200</price>
+    </book>
+    
+    <book>
+        <id>002</id>
+        <title>Python </title>
+        <author>Akanksha</author>
+        <genre>Programming</genre>
+        <price>800</price>
+    </book>
+
+    <book>
+        <id>003</id>
+        <title>Data Stucture</title>
+        <author>Swati </author>
+        <genre>Software Development</genre>
+        <price>950</price>
+    </book>
+</library>

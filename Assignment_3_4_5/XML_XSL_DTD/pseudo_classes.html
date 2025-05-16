@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes</title>
+</head>
+<body><br>
+    <!-- hover -->
+    <style>
+        button:hover{
+            color: white;
+            background-color: black;
+            font-size: 30px;
+            height: 50px;
+            width: 30%;
+        }
+    </style>
+    <button>
+        Hover me
+    </button>
+
+        <!-- active -->
+     
+        <h1>
+            Active
+        </h1>
+    <style>
+        h1:active{
+            background-color: red;
+            
+        }
+    </style>
+
+        <!-- focus -->
+     <input type="text">Click here
+     <style>
+        input:focus{
+           color:red;
+           height: 40px;
+        }
+     </style>
+    <ul>
+        <li>JAVA</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>PYTHON</li>
+        <li>C#</li>
+        <li>FLUTTER</li>
+        <li>MYSQL</li>
+        <style>
+            li:nth-child(even){
+                background-color: blueviolet;
+            }
+        </style>
+    </ul>
+
+    <input type="email" id="input-valid" placeholder="Enter Email ">
+    <input type="text" id="input-invalid" required placeholder="This is required">
+    <style>
+        #input-valid{
+            border: 2px solid red;
+        }
+        #input-invalid{
+            border: 2px solid green;
+        }
+    </style>
+</body>
+</html>

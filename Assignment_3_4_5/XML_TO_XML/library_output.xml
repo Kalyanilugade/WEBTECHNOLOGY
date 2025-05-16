@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<library>
+<bookDetails>
+    <bookTitle>XML Guide</bookTitle>
+    <bookAuthor>John Doe</bookAuthor>
+    <bookPrice>19.99</bookPrice>
+    <bookpages>50</bookpages>
+</bookDetails>
+<bookDetails>
+    <bookTitle>XSLT Basics</bookTitle>
+    <bookAuthor>Jane Smith</bookAuthor>
+    <bookPrice>25.99</bookPrice>
+    <bookpages>55</bookpages>
+</bookDetails></library>

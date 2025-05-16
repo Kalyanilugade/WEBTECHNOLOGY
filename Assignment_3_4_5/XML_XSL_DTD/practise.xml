@@ -1,0 +1,15 @@
+<? xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book[
+    <!ELEMENT book(title,price,author)>
+    <!ELEMENT title(#PCDATA)>
+    <!ELEMENT price(#PCDATA)>
+    <!ELEMENT author(#PCDATA)>
+
+]>
+
+<book>
+    <title>XM Guide</title>
+    <price>400</price>
+    <author>kl</author>
+</book>
+

@@ -1,0 +1,7 @@
+<!ELEMENT library (book+)>
+<!ELEMENT book (id, title, author, genre, price)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+</head>
+<body>
+    <style>
+        p::before{
+            content: "Good Night...";
+            color: red;
+        }
+    </style>
+    <!-- before -->
+    <p>
+        Helloo, Good Afternoon...
+    </p>
+
+    <!-- after -->
+     <style>
+        h1::after{
+            content: "HYPER TEXT MARKUP LANGUAGE";
+            font-size: 20px;
+            color: purple;
+        }
+     </style>
+     <h1>CSS is a used for styling</h1>
+
+    <!-- first_letter -->
+     <h2>
+        Welcome to Web Technology lab
+     </h2>
+   <style>
+    h2::first-letter{
+        font-size: 25px;
+        color: green;
+        font-weight: bold;
+    }
+</style>
+
+    <!-- /* First_line */ -->
+     <h3>
+        This is an example paragraph that shows how the first-line pseudo-element works
+     </h3>
+
+     <style>
+        h3::first-line{
+            color: blue;
+            font-size: 50px;
+        }
+     </style>
+
+     <!-- marker -->
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      <style>
+        li::marker{
+            color: red;
+            font-size: 1.5em;
+        }
+      </style>
+
+      <!-- backdrop -->
+       <!-- <dialog open=""><h5>
+        This is a fullscreen modal.
+       </h5></dialog>
+    <style>
+        ::backdrop{
+            background-color: red;
+        } -->
+    </style>
+</body>
+</html>

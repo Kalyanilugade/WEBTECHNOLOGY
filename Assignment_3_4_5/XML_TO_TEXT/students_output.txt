@@ -1,0 +1,19 @@
+﻿
+      Name: Kalyani
+
+      Roll No: 101
+
+      Department: CSE
+
+      -------------------------
+
+    
+      Name: swati
+
+      Roll No: 102
+
+      Department: IT
+
+      -------------------------
+
+    
